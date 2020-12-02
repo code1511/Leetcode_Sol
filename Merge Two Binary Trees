@@ -1,0 +1,21 @@
+class Solution {
+public:
+    TreeNode* insert(TreeNode* t1, TreeNode* t2){
+        if(t1==NULL && t2==NULL)
+            return NULL;
+        if(t1==NULL && t2!=NULL)
+            return t2;
+        if(t1!=NULL && t2==NULL )
+            return t1;
+        
+        TreeNode*s=new TreeNode(t1->val+t2->val);
+        
+        s->left=insert(t1->left,t2->left);
+        s->right=insert(t1->right,t2->right);
+        
+        return s;
+    }
+    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
+        return insert(t1,t2);
+    }
+};
