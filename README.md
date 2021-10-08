@@ -1,2 +1,2 @@
 <h1>Leetcode Question Bank</h1>
-all the leetcode solutions
+All the leetcode questions and solutions
