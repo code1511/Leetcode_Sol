@@ -8,10 +8,10 @@ All the leetcode questions and solutions
 
 <a href="https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem">Link 2</a>
 
-<h2>Implementation a hash-map data structur</h2>
+<h2>Implementation of a Hash-map data structure</h2>
+<br>
+<h3>What is a HashMap?</h3>
 <p>
-  What is a HashMap?
-
 A HashMap is a data structure that is able to map certain keys to certain values. The keys and values could be anything. For example, if I were making a game, I might link every username to a friends list, represented by a List of Strings.
 
 Why use a HashMap?
