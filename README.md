@@ -1,6 +1,7 @@
 <h1>Leetcode Question Bank (HacktoberFest 2021 ⭐)</h1>
 <h4>This is hacktoberfest 2021 valid repository! </h4>
 <p>Do contribute and earn swags </p>
+<h6>Make sure to add leetcode question number in the name of the file you can add it like "LC123problemName.cpp"</h6>
 All the leetcode questions and solutions
 <a href="https://leetcode.com/code1511/">My Leetcode Handle</a>
 <h4>Some greate articles to learn DP</h4>
