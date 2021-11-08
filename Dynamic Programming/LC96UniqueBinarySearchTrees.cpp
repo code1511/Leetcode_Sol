@@ -25,6 +25,22 @@ right node value will be greater than root node value
 
 class Solution {
 public:
+     int trees(int lo, int hi) {
+        if (lo >= hi) return 1;
+        int total = 0;
+        for (int i = lo; i <= hi; i++)
+            total += trees(lo, i - 1) * trees(i + 1, hi);
+        return total;
+    }
+    int numTrees(int n) {
+         return trees(1, n);
+    }
+};
+
+//dp soln
+
+class Solution {
+public:
     int dp[20][20];
      int trees(int low, int high) {
        if(low >= high) return 1;
